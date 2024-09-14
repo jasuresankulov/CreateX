@@ -1,0 +1,18 @@
+@import "./samples";
+
+$warning: #ff6600;
+$warning-t: #ff660050;
+$black: #0a0a0a;
+$light: #f4f4f4;
+
+%link {
+    @extend %link-style;
+}
+
+%warning-btn {
+    @extend %btn;
+    padding: 10px 20px;
+    background-color: $warning-t;
+    border: $warning;
+    color: snow;
+}
