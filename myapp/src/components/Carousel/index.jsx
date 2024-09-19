@@ -7,29 +7,42 @@ import FirstBigImg from "../../assets/images/firstBgImg.jpg"
 function CarouselComponet() {
   return (
     <>
-      <Carousel>
+     <div className="main">
+      <Carousel
+        showThumbs={false}
+        autoPlay={true}
+        infiniteLoop={true}
+        showStatus={false}
+      >
+       
         <div className="car">
-          <h1>this is carousel</h1>
-          <img src={FirstBigImg} alt="" />
+          <h1>CREATEX</h1>
+          <h1>CONSTRUCTION</h1>
+          <img height={900} src={FirstBigImg} alt="" />
         </div>
         <div className="car">
-        <h1>this is carousel</h1>
+        <h1>CREATEX</h1>
+        <h1>CONSTRUCTION</h1>
 
-          <img src={FirstBigImg} alt="" />
-
-        </div>
-        <div className="car">
-        <h1>this is carousel</h1>
-
-          <img src={FirstBigImg} alt="" />
+          <img  height={900} src={FirstBigImg} alt="" />
 
         </div>
         <div className="car">
-        <h1>this is carousel</h1>
+        <h1>CREATEX</h1>
+        <h1>CONSTRUCTION</h1>
 
-          <img src={FirstBigImg} alt="" />
+          <img height={900} src={FirstBigImg} alt="" />
+
+        </div>
+        <div className="car">
+        <h1>CREATEX</h1>
+        <h1>CONSTRUCTION</h1>
+
+          <img height={900} src={FirstBigImg} alt="" />
         </div>
       </Carousel>
+      </div>
+
     </>
   );
 }
