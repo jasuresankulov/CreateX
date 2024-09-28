@@ -1,12 +1,32 @@
 
 .main {
     position: relative;
-    bottom: 75px;
-    h1{
-        position: relative;
-        top: 312px;
-        right: 600px;
-        color: SNOW;
+    bottom: 10px;
+
+    .car {
+        .text{
+            position: absolute;
+            top: 200px;
+        }
+        .btns{
+          padding: 10px;
+          
+            .first-btn {
+                padding: 15px;
+                background-color: transparent;
+                border: solid 1px snow;
+                cursor: pointer;
+                color: snow;
+            }
+            .second-btn {
+              background-color: orangered;
+              border: none;
+              cursor: pointer;
+              padding: 15px;
+              color: snow;
+              border-radius: 5px;
+            }    
+        }
     }
-}
+ }
 
