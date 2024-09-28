@@ -1,0 +1,23 @@
+.main-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+
+    img {
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+     .text {
+  
+        p {
+            color: gray;
+            margin-top: 20px;
+        }
+
+        h1 {
+            color: black;
+        }
+    }
+}
