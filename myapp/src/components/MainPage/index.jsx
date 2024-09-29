@@ -1,7 +1,7 @@
 import CarouselComponet from "../Carousel";
 import Value from "./value";
 import WeAreCreateX from "./weAreCreateX";
-
+import OurServices from "./OurServices";
  
 
 function MainPage() {
@@ -10,6 +10,7 @@ function MainPage() {
         <CarouselComponet/>
         <WeAreCreateX/>
         <Value/>
+        <OurServices/>
          </>
      );
 }

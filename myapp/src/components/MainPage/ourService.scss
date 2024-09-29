@@ -1,0 +1,36 @@
+.main-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: 300px;
+    background-color: lightgray;
+
+    h1 {color: black;}
+
+    .ask-question {
+        background-color: white;
+        position: relative;
+        bottom: 150px;
+        width: 80%;
+        padding: 50px;
+        
+        .texts {
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr 1fr;
+            gap: 20px;
+        }
+
+        .input {
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr 1fr;
+            gap: 20px;
+            padding: 20px;
+
+            input {
+                padding: 10px;
+            }
+        }
+    }
+}
