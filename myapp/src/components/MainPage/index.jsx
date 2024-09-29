@@ -1,4 +1,5 @@
 import CarouselComponet from "../Carousel";
+import Value from "./value";
 import WeAreCreateX from "./weAreCreateX";
 
  
@@ -8,6 +9,7 @@ function MainPage() {
         <>
         <CarouselComponet/>
         <WeAreCreateX/>
+        <Value/>
          </>
      );
 }
